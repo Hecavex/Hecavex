@@ -11,7 +11,7 @@ HECAVEX studies the infrastructure, behaviour and people behind phishing, fraud,
 | Project | Purpose |
 | --- | --- |
 | [HECAVEX Research](https://github.com/Hecavex/hecavex.github.io) | Bilingual investigations, technical assessments, commentary and weekly Signal Briefs. |
-| [HECAVEX Radar](https://github.com/Hecavex/hecavex-radar) | Public, read-only view of recently observed potential phishing infrastructure relevant to Lithuania. |
+| [HECAVEX Radar](https://github.com/Hecavex/radar.hecavex.com) | Public, read-only view of recently observed potential phishing infrastructure relevant to Lithuania. |
 | [Open Domain Radar](https://github.com/Hecavex/open-domain-radar) | Brand-neutral, self-hosted Python application for collecting, reviewing and enriching candidate impersonation domains. |
 | [APT Notes](https://github.com/Hecavex/apt.hecavex.com) | Source-driven records connecting threat actors, aliases, campaigns, malware, tools and techniques. |
 | [HECAVEX Labs](https://github.com/Hecavex/labs.hecavex.com) | Inspectable CTI workspaces, ATT&CK workflows, evidence pivots and public datasets. |
