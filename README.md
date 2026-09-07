@@ -4,15 +4,16 @@
 
 HECAVEX studies the infrastructure, behaviour and people behind phishing, fraud, malware, cybercrime and information operations. The work combines long-form research, structured intelligence, reproducible evidence and small open-source tools.
 
-[Research](https://hecavex.com/) · [Radar](https://radar.hecavex.com/) · [APT Notes](https://apt.hecavex.com/) · [Labs](https://labs.hecavex.com/) · [Public data](https://labs.hecavex.com/data/)
+[Research](https://hecavex.com/) · [Radar](https://radar.hecavex.com/) · [APT Notes](https://apt.hecavex.com/) · [Labs](https://labs.hecavex.com/) · [Public data](https://hecavex.com/data/)
 
 ## Public work
 
 | Project | Purpose |
 | --- | --- |
-| [HECAVEX Research](https://github.com/Hecavex/hecavex.github.io) | Bilingual investigations, technical assessments, commentary and weekly Signal Briefs. |
+| [HECAVEX Research](https://github.com/Hecavex/hecavex.github.io) | Bilingual investigations, technical assessments, commentary and Signal Briefs. |
 | [HECAVEX Radar](https://github.com/Hecavex/radar.hecavex.com) | Public, read-only view of recently observed potential phishing infrastructure relevant to Lithuania. |
 | [Open Domain Radar](https://github.com/Hecavex/open-domain-radar) | Brand-neutral, self-hosted Python application for collecting, reviewing and enriching candidate impersonation domains. |
+| [SignalGraph](https://github.com/Hecavex/signalgraph) | Source-available, self-hosted CTI research platform. Version 1 is a verified release candidate, not a hosted service or stable release. |
 | [APT Notes](https://github.com/Hecavex/apt.hecavex.com) | Source-driven records connecting threat actors, aliases, campaigns, malware, tools and techniques. |
 | [HECAVEX Labs](https://github.com/Hecavex/labs.hecavex.com) | Inspectable CTI workspaces, ATT&CK workflows, evidence pivots and public datasets. |
 | [Research Artifacts](https://github.com/Hecavex/research-artifacts) | Versioned evidence bundles and reproducible supporting data for published research. |
