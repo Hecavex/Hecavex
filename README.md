@@ -1,31 +1,35 @@
 # HECAVEX
 
-**Independent cyber threat intelligence research and digital investigations by Deividas Lis.**
+**Independent cyber threat intelligence research by [Deividas Lis](https://hecavex.com/en/about/), Lithuania.**
 
-HECAVEX studies the infrastructure, behaviour and people behind phishing, fraud, malware, cybercrime and information operations. The work combines long-form research, structured intelligence, reproducible evidence and small open-source tools.
+I investigate the infrastructure, behaviour and people behind phishing, fraud, malware and information operations. I publish the evidence and its limits alongside every finding, in English and Lithuanian.
 
-[Research](https://hecavex.com/) · [Radar](https://radar.hecavex.com/) · [APT Notes](https://apt.hecavex.com/) · [Labs](https://labs.hecavex.com/) · [Public data](https://hecavex.com/data/)
+**[Read the research →](https://hecavex.com/en/research/)** · [Radar](https://radar.hecavex.com/) · [Signal Briefs](https://hecavex.com/en/briefings/) · [Public data](https://hecavex.com/data/) · [Lietuviškai](https://hecavex.com/lt/)
 
-## Public work
+## Projects
 
-| Project | Purpose |
-| --- | --- |
-| [HECAVEX Research](https://github.com/Hecavex/hecavex.github.io) | Bilingual investigations, technical assessments, commentary and Signal Briefs. |
-| [HECAVEX Radar](https://github.com/Hecavex/radar.hecavex.com) | Public, read-only view of recently observed potential phishing infrastructure relevant to Lithuania. |
-| [Open Domain Radar](https://github.com/Hecavex/open-domain-radar) | Brand-neutral, self-hosted Python application for collecting, reviewing and enriching candidate impersonation domains. |
-| [SignalGraph](https://github.com/Hecavex/signalgraph) | Source-available, self-hosted CTI research platform. Version 1 is a verified release candidate, not a hosted service or stable release. |
-| [APT Notes](https://github.com/Hecavex/apt.hecavex.com) | Source-driven records connecting threat actors, aliases, campaigns, malware, tools and techniques. |
-| [HECAVEX Labs](https://github.com/Hecavex/labs.hecavex.com) | Inspectable CTI workspaces, ATT&CK workflows, evidence pivots and public datasets. |
-| [Research Artifacts](https://github.com/Hecavex/research-artifacts) | Versioned evidence bundles and reproducible supporting data for published research. |
+| | What it is | Open |
+| --- | --- | --- |
+| **HECAVEX Research** | Bilingual investigations, technical detection guides and Signal Briefs. | [hecavex.com](https://hecavex.com/) · [source](https://github.com/Hecavex/hecavex.github.io) |
+| **HECAVEX Radar** | Potential phishing and impersonation domains relevant to Lithuania, collected from Certificate Transparency. Defanged and published as candidates for review, not verdicts. | [radar.hecavex.com](https://radar.hecavex.com/) · [source](https://github.com/Hecavex/radar.hecavex.com) |
+| **Open Domain Radar** | Run your own radar: a self-hosted Python app for collecting, reviewing and publishing domain-impersonation candidates for the brands you protect. Alpha. | [source](https://github.com/Hecavex/open-domain-radar) |
+| **Research Artifacts** | Versioned evidence bundles behind published investigations, so findings can be checked and reproduced. | [source](https://github.com/Hecavex/research-artifacts) |
 
-## Working principles
+## Use the data
 
-- An observation is not automatically a finding.
-- Infrastructure overlap is not automatically attribution.
-- Confidence, provenance, time and limitations belong beside the claim.
-- Public indicators are defanged, and sensitive evidence stays out of public repositories.
-- Open-source tools should remain inspectable, deployable and useful without an account where possible.
+- **Radar snapshot:** [JSON](https://radar.hecavex.com/data/radar.json) or [STIX 2.1 observations](https://radar.hecavex.com/data/radar.stix.json). Read the [dataset guide](https://radar.hecavex.com/dataset/) before you integrate it.
+- **Publication metadata:** [every article with versions, translations and citation files](https://hecavex.com/data/publications.json).
+- **Everything else:** the [public data catalogue](https://hecavex.com/data/).
 
-HECAVEX is an independent publication and research identity maintained by [Deividas Lis](https://hecavex.com/en/about/) in Lithuania.
+Radar entries are observations to investigate. Don't feed them straight into a blocklist.
 
-For research collaboration, corrections or media enquiries, use the [HECAVEX contact page](https://hecavex.com/en/contact/).
+## How I work
+
+- An observation is not a finding, and infrastructure overlap is not attribution.
+- Confidence, provenance, dates and limitations sit beside the claim they qualify. See the [methodology](https://hecavex.com/en/methodology/).
+- Indicators are defanged. Sensitive evidence stays out of public repositories.
+- Tools stay inspectable, self-hostable and usable without an account where possible.
+
+## Contact
+
+For research collaboration, corrections or media requests, use the [contact page](https://hecavex.com/en/contact/) or [LinkedIn](https://www.linkedin.com/in/deilis).
